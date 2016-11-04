@@ -30,3 +30,7 @@ git push origin v1.2
 
 git checkout -b [branchname] [tagname] 
 
+# Git branch
+git branch br_model
+git log --decorate -5
+git checkout br_model
