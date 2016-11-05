@@ -40,4 +40,10 @@ git branch --no-merged
 git branch -v
 git ls-remote
 git remote show origin
-git push origin testing # push testing branch to remote
+git push origin testing # push current local branch as origin/testing of remote
+git branch -u origin/testing # set the upstream of the local branch as origin/testing
+git checkout -b [branch] [remotename]/[branch]
+git checkout --track origin/testing
+git branch -vv # show all tracking branch detail
+
+
