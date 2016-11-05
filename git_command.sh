@@ -34,3 +34,10 @@ git checkout -b [branchname] [tagname]
 git branch br_model
 git log --decorate -5
 git checkout br_model
+git branch merge br_model
+git branch --merged
+git branch --no-merged
+git branch -v
+git ls-remote
+git remote show origin
+git push origin testing # push testing branch to remote
