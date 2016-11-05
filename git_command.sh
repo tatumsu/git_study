@@ -45,5 +45,5 @@ git branch -u origin/testing # set the upstream of the local branch as origin/te
 git checkout -b [branch] [remotename]/[branch]
 git checkout --track origin/testing
 git branch -vv # show all tracking branch detail
-
-
+git push origin --delete testing
+git log --graph --decorate --pretty=oneline  --all -8 # show git branch history graph
